@@ -1,0 +1,10 @@
+class demo extends Thread{
+public void run(){
+  System.out.println("Running");
+}
+public class void main(String[] args)
+{
+  demo obj = new demo();
+  obj.start();
+}
+}
